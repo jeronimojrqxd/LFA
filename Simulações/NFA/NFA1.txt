@@ -1,0 +1,2 @@
+NFA que aceita o conjunto de strings do alfabeto {0,1} que tenha dois 0's consecutivos ou dois 1's
+consecutivos.

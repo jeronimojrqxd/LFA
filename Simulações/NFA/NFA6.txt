@@ -1,0 +1,1 @@
+NFA que aceita strings sobre o alfabeto {0,1,2,3} tal que o dígito final não tenha aparecido antes.

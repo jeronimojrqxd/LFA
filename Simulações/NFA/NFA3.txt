@@ -1,0 +1,2 @@
+NFA que aceita o conjunto de strings do alfabeto {0,1} que tenham exatamente o tamanho 2.
+

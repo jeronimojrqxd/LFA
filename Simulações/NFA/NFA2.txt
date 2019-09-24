@@ -1,0 +1,1 @@
+NFA que aceita o conjunto de strings do alfabeto {0,1} que começam com 0'.

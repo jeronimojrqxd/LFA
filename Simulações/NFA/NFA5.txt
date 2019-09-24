@@ -1,0 +1,1 @@
+NFA que aceita o onjunto de strings do alfabeto {0,1} que terminam em 0's.

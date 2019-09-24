@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>303.0</x>
+			<y>241.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="q1">
+			<x>450.0</x>
+			<y>240.0</y>
+		</state>
+		<state id="2" name="q2">
+			<x>589.0</x>
+			<y>238.0</y>
+			<final/>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<read>2</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read/>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read/>
+		</transition>
+		<note>
+			<text>L(m) = (w pertecente {0,1,2}* | w contenha para todo numero de 0's seguido por
+para todo numero de 1's seguido por para todo número de 2's}</text>
+			<x>605.0</x>
+			<y>100.0</y>
+		</note>
+	</automaton>
+</structure>
